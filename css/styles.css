@@ -1,0 +1,19 @@
+body{
+    background-color: #000000;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.icon{
+    color: #3F0071;
+}
+
+.dice{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 35px;
+}
