@@ -11,9 +11,156 @@ body{
     color: #3F0071;
 }
 
+
+/*dice*/
 .dice{
-    width: 400px;
-    height: 400px;
-    background-color: red;
+    width: 250px;
+    height: 250px;
+    background-color: #8F43EE;
     border-radius: 35px;
+
+}
+
+.dot{
+  
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #000;
+    
+}
+
+.centermiddle{
+   transform: translateY(155%);
+   margin: auto;
+}
+
+.lefttop{
+position: absolute;
+float: left;
+margin-left: 30px;
+margin-top: 25px;
+}
+.rightbottom{
+position: absolute;
+float: left;
+margin-left: 160px;
+margin-top: 161px;
+}
+
+.righttop{
+    position: absolute;
+    float: left;
+    margin-left: 160px;
+    margin-top: -33px;
+ 
+}
+
+.leftbottom{
+    position: absolute;
+float: left;
+margin-left: 30px;
+margin-top: 101px;
+
+}
+
+.rightcenter{
+position: absolute;
+float: left;
+margin-left: 30px;
+margin-top: 33px;
+}
+
+.leftcenter{
+    position: absolute;
+    float: left;
+    margin-left: 160px;
+    margin-top: 33px;
+   
+    }
+
+/*ini*/
+
+.hidden{
+    display:none;
+}
+
+
+
+/*animate*/
+.afadeIn{
+    animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+        transform: rotate(0);
+        
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+        transform: rotate(360deg);
+       
+    }
+}
+
+@-moz-keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+        transform: rotate(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+        transform: rotate(360deg);
+    }
+}
+
+
+@-webkit-keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+        transform: rotate(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+        transform: rotate(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+        transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+        transform: rotate(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+        transform: rotate(360deg);
+    }
 }
